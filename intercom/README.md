@@ -80,7 +80,7 @@
 
 #####ANSWER
 
-```JSON
+```javascript
 
 Suppose all customers are very active and there is a lot of updates happening.
 
