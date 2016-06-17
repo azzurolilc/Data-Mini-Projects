@@ -92,34 +92,34 @@ Collection customers {
   join_time: Timestamp,
   product_learn : {
     current: Boolean,
-    log:[ {start_date:timestamp
-          ,end_date: timestamp }
-          ,{start_date:timestamp
-          ,end_date: timestamp }
+    log:[ {start_date:Timestamp
+          ,end_date: Timestamp }
+          ,{start_date:Timestamp
+          ,end_date: Timestamp }
           ...]
   }
   product_engage : {
     current: Boolean,
-    log:[ {start_date:timestamp
-          ,end_date: timestamp }
-          ,{start_date:timestamp
-          ,end_date: timestamp }
+    log:[ {start_date:Timestamp
+          ,end_date: Timestamp }
+          ,{start_date:Timestamp
+          ,end_date: Timestamp }
           ...]
   }
   product_support : {
     current: Boolean,
-    log:[{start_date:timestamp
-          ,end_date: timestamp }
-          ,{start_date:timestamp
-          ,end_date: timestamp }
+    log:[{start_date:Timestamp
+          ,end_date: Timestamp }
+          ,{start_date:Timestamp
+          ,end_date: Timestamp }
           ...]
   }
   user_sum: [{tier: String,
                 total:Int,
-                update: timestamp}
+                update: Timestamp}
                 ,{tier: String,
                 total:Int,
-                update: timestamp}
+                update: Timestamp}
                 ...]
 
 }
