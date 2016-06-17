@@ -129,10 +129,10 @@ Collection users  {
   customer_id: ObjectId,
   name : String,
   active: Boolean,
-  log: [{start_date: timestamp,
-         end_date: timestamp}
-         ,{start_date: timestamp,
-         end_date: timestamp}
+  log: [{start_date: Timestamp,
+         end_date: Timestamp}
+         ,{start_date: Timestamp,
+         end_date: Timestamp}
          ...]
 }
 
